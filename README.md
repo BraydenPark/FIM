@@ -1,9 +1,10 @@
 # FIM
 INSTALLATION STEPS:
-1) Move FIM.py to desired location
-2) Open terminal
-3) type "sudo chmod +x FIM.py"
-4) type "sudo ./FIM.py" to start Program
+1) Open terminal in Linux 
+2) Navigate (cd) to desired location in Linux 
+3) type "git clone https://github.com/BraydenPark/FIM.git"
+4) type "sudo chmod +x FIM.py"
+5) type "sudo ./FIM.py" to start Program
 
 CAUTIONS & WARNINGS:
 - Make sure to limit write privileges to FIM.py Because the FIM has to be run with elevated privileges. Code could be modified and run as root.
