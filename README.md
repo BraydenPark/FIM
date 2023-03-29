@@ -26,4 +26,7 @@ CONFIG DESCRIPTIONS:
 - loggingVerification: This can be set as "True" or "False" (case sensitive). If "True", the program will log verification outputs. This would be if/when a file hasn't been changed. If "False", the program won't log verification alerts. 
 - loggingHashUpdates: This can be set as "True" or "False" (case sensitive). If "True", the program will log anytime a hash is updated and recalculated. If "False", the program won't log anytime a hash is updated and recalculated.
 - maxLogFileDays: This is the total amount of DAYS that the log file will be allowed to be on the system before being cleared. The default is 10 days. So 10 days after it is created, it will be cleared when the program is first run. 
-- ScanPath: This is the absolute path that the FIM will be monitoring. "Default is /home/kali/Desktop/scanned" 
+- ScanPath: This is the absolute path that the FIM will be monitoring. "Default is /home/kali/Desktop/scanned"
+
+VIDEO DEMO:
+You can find a short video demo here on my website: https://braydensblogs.com/python-fim-file-integrity-monitor/
