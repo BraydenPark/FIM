@@ -9,7 +9,7 @@ CAUTIONS & WARNINGS:
 - Make sure to limit write privileges to FIM.py Because the FIM has to be run with elevated privileges. Code could be modified and run as root.
 - It is recommended that FIM.py only have write privileges: "sudo chmod 644" (R+W,R,R)
 - It is recommended that the secondsUntilUpdateHashes (default time is 2 minutes) is a longer time compared to secondsUntilReVerify (The default time is 10 seconds)
-- **DO NOT USE THIS IN ANY ENTERPRISE PRODUCTION ENVIRONMENT as it has not been extensibly tested. Brayden Park is not responsible for any damage that may/is done towards you or your organization while using this product.** 
+- **DO NOT USE THIS IN ANY ENTERPRISE PRODUCTION ENVIRONMENT as it has not been extensibly tested. Brayden Park is not responsible for any damage that may/is done towards you or your organization while using this product. USE AT YOUR OWN RISK** 
 
 NOTES:
 - The log file, the hash database, and the config file automatically get created and placed into /etc/FIM/
